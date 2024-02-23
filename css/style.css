@@ -533,7 +533,9 @@ img {
 }
 @media only screen and (min-width: 768px) and (max-width: 1157.98px) {
   .footer .container {
-    padding-left: 108px;
+    padding: 0 108px;
+    flex-direction: row;
+    flex-wrap: wrap;
   }
 }
 @media only screen and (min-width: 1158px) {
@@ -541,7 +543,7 @@ img {
     flex-direction: row;
     flex-wrap: nowrap;
     align-items: baseline;
-    gap: 80px;
+    gap: 0;
   }
   .footer-top {
     flex-wrap: nowrap;
@@ -592,6 +594,10 @@ img {
 @media only screen and (min-width: 1158px) {
   .footer-desc {
     margin-right: 120px;
+  }
+  .footer-soc-list{
+    flex-wrap: nowrap;
+    margin-right: 80px;
   }
 }
 .footer-subscribe {
