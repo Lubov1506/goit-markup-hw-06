@@ -21,21 +21,26 @@
   </head>
   <body>
     <!-- #region header -->
-    <header class="header hide">
-      <div class="container row header-container">
-        <nav class="nav row">
+    <header class="header">
+      <div class="container row">
+        <nav class="header-nav row">
           <a href="./index.html" class="logo">
             Web<span class="logo-span">Studio</span>
           </a>
-          <ul class="nav-list row">
-            <li class="nav-item">
-              <a href="./index.html" class="nav-link active">Studio</a>
+          <button class="header-burger-btn" type="button">
+            <svg class="" width="28" height="28">
+              <use href="./images/icons.svg#icon-burger-menu"></use>
+            </svg>
+          </button>
+          <ul class="header-nav-list row">
+            <li class="header-nav-item">
+              <a href="./index.html" class="header-nav-link active">Studio</a>
             </li>
-            <li class="nav-item">
-              <a href="" class="nav-link">Portfolio</a>
+            <li class="header-nav-item">
+              <a href="" class="header-nav-link">Portfolio</a>
             </li>
-            <li class="nav-item">
-              <a href="" class="nav-link">Contacts</a>
+            <li class="header-nav-item">
+              <a href="" class="header-nav-link">Contacts</a>
             </li>
           </ul>
         </nav>
@@ -60,7 +65,7 @@
     <main>
       <!-- #region Hero-->
       <section class="hero ">
-        <div class="container hero-container col">
+        <div class="container col">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
           <button type="button" class="hero-button btn">Order Service</button>
         </div>
@@ -612,5 +617,56 @@
       </div>
     </div>
     <!-- #endregion Modal -->
+  
+    <!-- #region Mobile menu -->
+
+    <div class="mobile-menu ">
+      <button class="mobile-close-btn">
+        <svg class="mobile-close-icon" width="8" height="8">
+          <use href="./images/icons.svg#icon-close"></use>
+        </svg>
+      </button>
+        <ul class="mobile-list">
+          <li class="mobile-item "><a href="" class="mobile-link current">Studio</a></li>
+          <li class="mobile-item"><a href="" class="mobile-link">Portfolio</a></li>
+          <li class="mobile-item"><a href="" class="mobile-link">Contacts</a></li>
+        </ul>
+        <ul class="mobile-contacts-list">
+          <li class="mobile-contacts-item"><a href="tel:+110001111111" class="mobile-contacts-link accent">+11 (000) 111-11-11</a></li>
+          <li class="mobile-contacts-item"><a href="mailto:info@devstudio.com" class="mobile-contacts-link">info@devstudio.com</a></li>
+        </ul>
+        <ul class="team-list-icons row">
+          <li class="team-item-icon row">
+            <a href="#" class="team-link-icon row">
+              <svg class="team-icon" width="16" height="16">
+                <use href="./images/icons.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="team-item-icon row">
+            <a href="#" class="team-link-icon row">
+              <svg class="team-icon" width="16" height="16">
+                <use href="./images/icons.svg#icon-twitter"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="team-item-icon row">
+            <a href="#" class="team-link-icon row">
+              <svg class="team-icon" width="16" height="16">
+                <use href="./images/icons.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="team-item-icon row">
+            <a href="#" class="team-link-icon row">
+              <svg class="team-icon" width="16" height="16">
+                <use href="./images/icons.svg#icon-linkedin"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+    </div>
+
+    <!-- #endregion Mobile menu -->
   </body>
 </html>
