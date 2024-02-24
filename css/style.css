@@ -655,7 +655,7 @@ img {
   }
 }
 @media only screen and (min-width: 1158px) {
-  .footer{
+  .footer {
     padding: 100px 0;
   }
   .footer .container {
@@ -1116,7 +1116,8 @@ input[type="checkbox"]:checked
 .accent {
   color: var(--iris);
 }
-.mobile-link:focus, .mobile-contacts-link:focus{
+.mobile-link:focus,
+.mobile-contacts-link:focus {
   color: var(--ocean);
 }
 .mobile-menu .team-list-icons {
