@@ -1037,9 +1037,11 @@ input[type="checkbox"]:checked
   flex-direction: column;
   position: fixed;
   top: 0;
-  left: 0;
-  width: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 320px;
   height: 100%;
+  margin: 0 auto;
   z-index: 10000;
   padding: 72px 24px 40px 16px;
   background-color: var(--white);
@@ -1121,6 +1123,7 @@ input[type="checkbox"]:checked
   color: var(--ocean);
 }
 .mobile-menu .team-list-icons {
+  flex-wrap: nowrap;
   justify-content: start;
   gap: 40px;
 }
